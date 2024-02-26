@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFD900;
+    height: 120px;
+}
+
+#logo {
+   padding-top: 30px;
+   padding-left: 50px;
+   width: 200px;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    width: auto;
+}
+
+#chamada{
+    background-color: #514988;
+    color: white;
+    width: 45%;
+    padding-bottom: 50px;
+}
+
+#chamada_texto {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFD900;
+    padding: 30px 0px 30px 0px;
+}
+
+#chamada h4 {
+    color: white;
+    padding-bottom: 70px;
+}
+
+#countDown {
+    width: 55%;
+}
+
+.contagem {
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    color: #514988;
+    padding: 30px 0px 5px 0px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#countDown:nth-child(2) {
+    font-size: 17px;
+    color: #E33881;
+}
+
+video {
+    width: 95%;
+    height: auto;
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#ingressos {
+   padding-left: 30px;
+}
+
+#ingressos p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD900;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#compra {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+#allCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 150px;
+}
+
+#botao {
+    background-color: #514988;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    width: 350px;
+    height: 100px;
+    margin-top: 60px;
+}
+
+#botao:hover {
+    color: #FFD900;
+}
